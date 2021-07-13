@@ -38,14 +38,66 @@ main {
   width: 90px;
 }
 #actor-heading {
+  margin-top: 0px;
+  margin-bottom: 30px;
   color: rgb(48, 172, 110);
   font-size: 24px;
 }
 .actress {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 20px;
 }
 .actor {
   padding-bottom: 20px;
   display: flex;
+}
+.actor h3 {
+  margin-left: 15px;
+}
+
+/*------------
+ Top Books Styles
+ --------------- */
+.top-books {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 20px;
+}
+.book {
+  display: flex;
+  border-radius: 12px;
+}
+.book-title {
+  color: #17202a;
+}
+.book h3 {
+  margin-left: 15px;
+}
+.author-name a {
+  text-decoration: none;
+  align-content: center;
+  /* display: flex; */
+}
+
+.book {
+  padding-bottom: 20px;
+  display: flex;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Courses Style */
+
+.courses {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 20px;
+}
+.course {
+  display: flex;
+}
+.courses h3 {
+  margin-left: 15px;
 }
